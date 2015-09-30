@@ -1,0 +1,23 @@
+ as root pkg install sudo nano
+;;sudoers file edit /usr/local/etc/sudoers
+;;root ALL=(ALL) ALL
+;;zenyfish ALL=(ALL) ALL
+sudo pkg install git
+;;github'dan dosyalarini cek 
+sudo pkg install xorg
+;;sudo pkg install sbcl stump-install.sh icinde var 
+;;sudo install-stump.sh
+sudo pkg install emacs24
+sudo pkg install chromium
+;;sudo sysctl kern.ipc.shm_allow_removed=1
+;;her boot icin append kern.ipc.shm_allow_removed=1 to /etc/sysctl.conf
+sudo pkg install firefox-esr
+;;enable dbus by appending /etc/rc.conf dbus_enable="YES"
+sudo pkg install keynav
+;;.keynavrc dosyasini al.
+sudo pkg install
+sudo pkg install
+;;cok da gerekli degil;;sesi on tarafa nasil verebileceginin konfigurasyonu.
+;;stumpwm tiling nasil yapiyor onu ogren basit kullanimi
+;;conkeror basit kullanimini ogren
+;;emacs icinden conkeror default browser , conkerorda bir yazi yazarken emacs'e nasil gonderirsin.
